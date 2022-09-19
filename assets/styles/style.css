@@ -1,33 +1,51 @@
-@font-face { font-family: Sangha Kali; src: "assets/fonts/font/SanghaKali-Regular.ttf";}
+@font-face {
+  font-family: Sangha Kali;
+  src: "assets/fonts/font/SanghaKali-Regular.ttf";
+}
 
-body { background-color:  #65b7ce;}
+body {
+  background-color: #447695;
+}
 
 .hero-section {
-	height: 95vh; width: 100vw;
-	overflow: hidden;
-	position: relative;
-	text-align: center; margin-top: 10vh ;
+  height: 95vh;
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  margin-top: 10vh;
 }
 .hero-section__caption {
-	position: absolute;
-	right: 0; left: 0; bottom: 5vh; z-index: 50; 
-	color: black; font-size: 2em;
-	line-height: 2.4;
-	text-shadow: 3px 3px 20px #04082e; font-family: Sangha Kali;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 5vh;
+  z-index: 50;
+  color: #04082e;
+  font-size: 2em;
+  line-height: 2.4;
+  text-shadow: 3px 3px 20px #04082e;
+  font-family: Sangha Kali;
 }
 .hero-section__image {
-	height: 95vh; width: 100vw; position: absolute; z-index: 1;
+  height: 95vh;
+  width: 100vw;
+  position: absolute;
+  z-index: 1;
 }
 .hero-section__image img {
-	width: 100%;
-	transform-origin:bottom; animation: grow infinite;
-	animation-duration: 500s; animation-direction: alternate; animation-timing-function: ease;
+  width: 100%;
+  transform-origin: bottom;
+  animation: grow infinite;
+  animation-duration: 500s;
+  animation-direction: alternate;
+  animation-timing-function: ease;
 }
 @keyframes grow {
-	0% {
-		transform: scale(1);
-	}
-	100% {
-		transform: scale(2);
-	}
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(2);
+  }
 }
