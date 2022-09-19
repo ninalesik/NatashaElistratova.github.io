@@ -18,17 +18,15 @@ body {
   text-align: center;
   margin-top: 10vh;
 }
-.hero-section__caption {
+.header__logo {
   position: absolute;
-  right: 0;
-  left: 0;
-  bottom: 5vh;
+  top: 10px; left: 1em;
   z-index: 50;
-  color: #447695;
+  color: #bfe6ef;
   font-size: 2.5em; font-weight: 200;
   line-height: 1.4;
   text-shadow: 5px 5px 20px #04082e;
-  font-family: "SanghaKali", sans-serif;
+  font-family: "SanghaKali", sans-serif; 
 }
 .hero-section__image {
   height: 95vh;
@@ -63,7 +61,7 @@ body {
   width: 50vw;
   text-align: center;
   margin-top: 50vh;
-  text-align: center; line-height: 1.9em;
+  text-align: center; line-height: 1.7em; font-size: 22px;
   color: #bfe6ef;
 }
 
