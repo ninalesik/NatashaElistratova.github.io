@@ -1,6 +1,9 @@
 @font-face {
-  font-family: Sangha Kali;
-  src: "assets/fonts/font/SanghaKali-Regular.ttf";
+  font-family: "SanghaKali";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/assets/fonts/font/SanghaKali-Regular.woff2") format("woff2"),
+    url("/assets/fonts/font/SanghaKali-Regular.woff") format("woff");
 }
 
 body {
@@ -22,10 +25,10 @@ body {
   bottom: 5vh;
   z-index: 50;
   color: #04082e;
-  font-size: 2em;
-  line-height: 2.4;
+  font-size: 3em;
+  line-height: 1.4;
   text-shadow: 3px 3px 20px #04082e;
-  font-family: Sangha Kali;
+  font-family: "SanghaKali", sans-serif;
 }
 .hero-section__image {
   height: 95vh;
@@ -48,4 +51,24 @@ body {
   100% {
     transform: scale(2);
   }
+}
+
+.section__legend {
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 50vh;
+  width: 50vw;
+  text-align: center;
+  margin-top: 50vh;
+  text-align: center;
+  color: #bfe6ef;
+}
+
+.section__legend > h2 {
+  line-height: 2em;
+  font-family: "SanghaKali", sans-serif;
+  font-size: 3em;
 }
