@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "SanghaKali";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/assets/fonts/font/SanghaKali-Regular.woff2") format("woff2"),
+    url("/assets/fonts/font/SanghaKali-Regular.woff") format("woff");
+}
+
+body {
+  background-color: #447695;
+}
+h2 {
+  font-family: "SanghaKali";
+  font-size: 3em;
+  line-height: 2em;
+  text-transform: uppercase;
+  font-style: italic;
+  text-align: center;
+}
+
+.main-section__block {
+  display: inline-block;
+  width: 100vw;
+  height: 85vh;
+}
+.main-section__press-reviews {
+  color: #bfe6ef;
+}
+.main-section__photo-gallery {
+  background-color: #bfe6ef;
+  color: #04082e;
+}
+.main-section__video-player {
+  background-color: #04082e;
+  color: #bfe6ef;
+}
+.main-section__partner-logos {
+  color: #bfe6ef;
+}
