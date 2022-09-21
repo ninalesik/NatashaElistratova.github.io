@@ -72,3 +72,14 @@ body {
   font-family: "SanghaKali", sans-serif;
   font-size: 3em;
 }
+
+.servises {
+  background-color:rgb(35, 142, 208);
+  text-align: center;
+  color: #bfe6ef;
+}
+h3 {
+  line-height: 2em;
+  font-family: "SanghaKali", sans-serif;
+  font-size: 3em;
+}
