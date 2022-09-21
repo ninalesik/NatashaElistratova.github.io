@@ -67,7 +67,7 @@ body {
   text-align: center;
   line-height: 1.7em;
   font-size: 22px;
-  color: #bfe6ef;
+  color: #bfe6ef; font-style: italic; 
 }
 
 .section__legend > h2 {
@@ -75,5 +75,4 @@ body {
   font-family: "SanghaKali", sans-serif;
   font-size: 3em;
   text-transform: uppercase;
-  font-style: italic; 
 }
