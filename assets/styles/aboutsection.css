@@ -6,7 +6,7 @@
   grid-row-gap: 2%;
   grid-column-gap: 2%;
 
-  background-color: rgb(215, 237, 250);
+  background: url(/assets/img/about/clouds.svg);
 }
 
 .about__image {
@@ -31,10 +31,14 @@
   grid-column: 3;
   grid-row: 2;
   font-family: "SanghaKali", sans-serif;
+  color: #25162e;
 }
 .about__image img {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  background-color: rgb(215, 237, 250);
+  background-color: rgb(215, 237, 250, 0.5);
+  border-radius: 10px;
+  border: 5px solid #fff;
+  box-shadow: 2px 1px 5px #999494;
 }
