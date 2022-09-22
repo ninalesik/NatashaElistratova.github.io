@@ -76,3 +76,14 @@ body {
   font-size: 3em;
   text-transform: uppercase;
 }
+
+.servises {
+  background-color:#04082e;
+  text-align: center;
+  color:  #bfe6ef;
+}
+h3 {
+  line-height: 2em;
+  font-family: "SanghaKali", sans-serif;
+  font-size: 3em;
+}
