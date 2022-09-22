@@ -1,4 +1,4 @@
-.about {
+.about-section {
   display: grid;
   grid-template-rows: 15% 78%;
   grid-template-columns: 2% 20% 60% 1fr;
