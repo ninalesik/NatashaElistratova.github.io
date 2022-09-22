@@ -26,14 +26,14 @@
   font-size: 3em;
   text-transform: uppercase;
   font-style: italic;
-  color: #25162e;
+  color: #04082e;
   place-self: center;
 }
 .about__text {
   grid-column: 3;
   grid-row: 2;
-  font-family: "SanghaKali", sans-serif;
-  color: #25162e;
+  font-style: italic;
+  color: #04082e;
 }
 .about__image img {
   object-fit: cover;
