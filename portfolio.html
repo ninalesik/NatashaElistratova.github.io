@@ -38,8 +38,10 @@
               Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
               dolor sit amet.
             </p>
+            
           </div>
-          <div
+          <button class="button" onclick="myFunctiontext()" id="myBtn">Read more</button>
+          <span id="dots">...</span><span id="more"><div
             class="main-section__press-reviews_para main-section__press-reviews_para2"
           >
             <p>
@@ -52,14 +54,61 @@
               invidunt ut labore et dolore magna aliquyam erat, sed diam
               voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
               Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
-              dolor sit amet.
+              dolor sit amet.</span>
             </p>
+            
           </div>
+         
         </div>
       </section>
       <section>
         <div class="main-section__block main-section__photo-gallery">
           <h2>Photo gallery</h2>
+          <div class="main-section__gallery_row">
+            <div class="main-section__gallery_column">
+              <img
+                src="assets/img/yannis-papanastasopoulos-yWF2LLan-_o-unsplash.jpg"
+                alt="band"
+                onclick="myFunction(this);"
+              />
+            </div>
+            <div class="main-section__gallery_column">
+              <img
+                src="assets/img/diego-catto-DI6ywiG5N0g-unsplash.jpg"
+                alt="guitars"
+                onclick="myFunction(this);"
+              />
+            </div>
+            <div class="main-section__gallery_column">
+              <img
+                src="assets/img/kyle-arcilla-hCuphhtCo9c-unsplash.jpg"
+                alt="pian"
+                onclick="myFunction(this);"
+              />
+            </div>
+            <div class="main-section__gallery_column">
+              <img
+                src="assets/img/marius-masalar-rPOmLGwai2w-unsplash.jpg"
+                alt="notes"
+                onclick="myFunction(this);"
+              />
+            </div>
+            <div class="main-section__gallery_column">
+              <img
+                src="assets/img/oscar-keys-ojVMh1QTVGY-unsplash.jpg"
+                alt="pian"
+                onclick="myFunction(this);"
+              />
+            </div>
+          </div>
+          <div class="main-section__gallery_container">
+            <span
+              onclick="this.parentElement.style.display='none'"
+              class="closebtn"
+              >&times;</span
+            >
+            <img id="expandedImg" style="width: 100%" />
+          </div>
         </div>
       </section>
       <section>
@@ -195,5 +244,6 @@
       integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
       crossorigin="anonymous"
     ></script>
+    <script src="/script.js"></script>
   </body>
 </html>

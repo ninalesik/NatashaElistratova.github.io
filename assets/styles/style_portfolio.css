@@ -9,7 +9,7 @@
 body {
   background-color: #447695;
 }
-h2 {
+h2 { margin: 50px;
   font-family: "SanghaKali";
   font-size: 3em;
   line-height: 2em;
@@ -18,11 +18,10 @@ h2 {
   text-align: center;
 }
 
-.main-section__block {
+.main-section__block { min-height: 80vh;
   display: inline-block;
   width: 100vw;
   height: 100%;
-  margin-bottom: 50px;
 }
 .main-section__press-reviews {
   color: #bfe6ef;
@@ -40,9 +39,9 @@ h2 {
 }
 
 .main-section__partner-logos {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(5, 1fr);
+  display: grid; margin: 10px;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(4, 1fr);
   align-items: stretch;
   column-gap: 7px;
   row-gap: 5px;
@@ -62,7 +61,7 @@ h2 {
 }
 
 .main-section__press-reviews_para {
-  margin: 20px;
+  margin: 20px; margin-bottom: 30px; margin-top: 30px;
   padding: 8px;
   font-style: italic;
   font-size: 20px;
@@ -72,5 +71,53 @@ h2 {
 
 .main-section__press-reviews_para1 {
   color: #04082e;
-  border: 1px solid #04082e;
+  border: 1px solid #04082e; 
 }
+
+.main-section__press-reviews_para2 { margin-bottom: 100px;}
+
+.main-section__gallery_column {
+  float: left;
+  width: 20%;
+  padding: 10px;
+}
+
+.main-section__gallery_column img {
+  width: 200px; height:auto;
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.main-section__gallery_column img:hover {
+  opacity: 1;
+}
+
+.main-section__gallery_row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.main-section__gallery_container {
+  position: relative;
+  display: none; 
+}
+
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: #bfe6ef;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+#more {display: none;}
+
+.button { background-color: #04082e; border: none; font-style: italic;
+  color: #bfe6ef;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration:none;
+  display: inline-block;
+  font-size: 16px; position: relative; left: 50px;}
