@@ -12,6 +12,37 @@ body {
   line-height: 1.7em;
   font-style: italic;
 }
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  display: block;
+  padding: 15px;
+  background-color: #447695;
+  color: #bfe6ef;
+  font-size: 36px;
+  font-family: "SanghaKali";
+  text-shadow: 5px 5px 20px #04082e;
+  font-weight: 200;
+  line-height: 1.4;
+}
+li a:hover {
+  color: #eebd6b;
+  text-decoration: none;
+}
+
+.header__navigation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
 
 .hero-section {
   height: 95vh;
@@ -19,22 +50,20 @@ body {
   overflow: hidden;
   position: relative;
   text-align: center;
-  margin-top: 10vh;
 }
 .header__logo {
-  position: absolute;
-  top: 10px;
-  left: 1em;
-  z-index: 50;
   color: #bfe6ef;
   font-size: 36px;
   font-weight: 200;
   line-height: 1.4;
   text-shadow: 5px 5px 20px #04082e;
   font-family: "SanghaKali", sans-serif;
+  position: absolute;
+  left: 50px;
+  padding: 15px;
 }
 .hero-section__image {
-  height: 95vh;
+  height: 100%;
   width: 100vw;
   position: absolute;
   z-index: 1;
