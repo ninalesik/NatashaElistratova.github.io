@@ -9,7 +9,7 @@
 body {
   background-color: #447695;
 }
-h2 { margin: 50px;
+h2 { margin: 100px;
   font-family: "SanghaKali";
   font-size: 3em;
   line-height: 2em;
@@ -120,4 +120,6 @@ h2 { margin: 50px;
   text-align: center;
   text-decoration:none;
   display: inline-block;
-  font-size: 16px; position: relative; left: 50px;}
+  font-size: 16px; position: relative; left: 50px; margin-bottom: 30px;}
+
+  .main-section__video {width:100%; height:auto; margin-bottom: 70px;}
