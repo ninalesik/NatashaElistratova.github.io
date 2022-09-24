@@ -114,7 +114,31 @@ li a:hover {
   text-align: center;
   color: #bfe6ef;
 }
+.footer{
+  text-align: center;
+  font-family: sans-serif;
+  font-style: italic;
+  color: #bfe6ef;
+  font-size: 15px;
+  padding-top: 15px;
+  height: 250px;
+  text-shadow: 5px 5px 20px #04082e;
+}
+.footer-link{
+  color: #bfe6ef;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-style: italic;
+  color: #bfe6ef;
 
-
-
-
+}
+.logo_footer{
+  font-family: "SanghaKali", sans-serif;
+  font-size: 40px;
+  padding-top: 5%;
+  text-shadow: 5px 5px 20px #04082e;
+}
+ol a:hover {
+  color: #eebd6b;
+  text-decoration: none;
+}
