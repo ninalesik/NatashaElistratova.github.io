@@ -28,8 +28,6 @@ li a {
   background-color: #447695;
   color: #bfe6ef;
   font-size: 36px;
-  font-family: "SanghaKali";
-  text-shadow: 5px 5px 20px #04082e;
   font-weight: 200;
   line-height: 1.4;
 }
@@ -53,7 +51,7 @@ li a:hover {
 }
 .header__logo {
   color: #bfe6ef;
-  font-size: 36px;
+  font-size: 40px;
   font-weight: 200;
   line-height: 1.4;
   text-shadow: 5px 5px 20px #04082e;
